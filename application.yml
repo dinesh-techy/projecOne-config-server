@@ -1,0 +1,8 @@
+common:
+  name: "Project One"
+  message: "Welcome to ProjectOne architecture"
+
+spring:
+  profiles:
+      active: dev  # Default profile, can be overridden by env variables
+
