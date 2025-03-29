@@ -12,4 +12,17 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+spring:
+  application:
+    name: user-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/projectOne
+    username: postgres
+    password: dinesh12345
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
   
