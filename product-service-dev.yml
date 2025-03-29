@@ -5,6 +5,7 @@ spring:
   application:
     name: product-service
   datasource:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     url: jdbc:postgresql://localhost:5432/projectOne_dev
     username: postgres
     password: dev_password
