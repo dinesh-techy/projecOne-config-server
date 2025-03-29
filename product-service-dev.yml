@@ -5,10 +5,9 @@ spring:
   application:
     name: product-service
   datasource:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
-    url: jdbc:postgresql://localhost:5432/projectOne_dev
+    url: jdbc:postgresql://localhost:5432/projectOne
     username: postgres
-    password: dev_password
+    password: dinesh12345
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
