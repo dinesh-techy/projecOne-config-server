@@ -1,12 +1,8 @@
+server:
+  port: 8083
 spring:
   application:
     name: product-service
-
-server:
-  port: 8083
-
-##### POSTGRES SQL Connection ########
-spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/projectOne
     username: postgres
@@ -16,3 +12,4 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  
